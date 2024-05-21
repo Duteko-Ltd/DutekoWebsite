@@ -64,15 +64,19 @@
             }
 
             .register a {
-                text-decoration: none;
-                color: white;
-                padding: 10px 20px;
-                font-size: 20px;
-                background: indianred;
-                border-radius: 8px;
-                transition: 0.4s;
-            }
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            background: indianred;
+            border-radius: 8px;
+            transition: 0.4s;
+            margin-right: 10px; /* Add this line */
+        }
 
+        .register a:last-child {
+            margin-right: 0; /* Remove margin from the last element */
+        }
             .register a:hover {
                 background: transparent;
                 border: 1px solid indianred;
@@ -127,6 +131,7 @@
                 <div class="register">
                     <!-- <a href="#">Register</a> -->
                     <a href="contact.html">Contact</a>
+                    <a href="terms_conditions.html">Terms and Conditions</a>
                 </div>
             </nav>
             <section class="h-txt">
