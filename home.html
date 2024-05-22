@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>Duteko</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style type="text/css">
-            * {
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
-            }
+<head>
+    <title>Duteko</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
 
-            header {
-                width: 100%;
-                height: 100vh;
-                background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('image/test.jpg');
-                background-size: cover;
-                font-family: sans-serif;
-            }
+        header {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('image/test.jpg');
+            background-size: cover;
+            font-family: sans-serif;
+        }
 
-            nav {
-                width: 100%;
-                height: 100px;
-                /* background: white; */
-                color: white;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-            }
+        nav {
+            width: 100%;
+            height: 100px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
 
-            nav a {
-                text-decoration: none;
-                color: white;
-            }
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
 
-            .logo {
-                font-size: 2em;
-                letter-spacing: 2px;
-            }
+        .logo {
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
 
-            .menu a {
-                text-decoration: none;
-                color: white;
-                padding: 10px 20px;
-                font-size: 20px;
-                position: relative;
-            }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            position: relative;
+        }
 
-            .menu a::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 0%;
-                height: 100%;
-                border-bottom: 2px solid indianred;
-                transition: 0.4s linear;
-            }
+        .menu a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            border-bottom: 2px solid indianred;
+            transition: 0.4s linear;
+        }
 
-            .menu a:hover::before {
-                width: 90%;
-            }
+        .menu a:hover::before {
+            width: 90%;
+        }
 
-            .register a {
+        .register a {
             text-decoration: none;
             color: white;
             padding: 10px 20px;
@@ -71,77 +70,129 @@
             background: indianred;
             border-radius: 8px;
             transition: 0.4s;
-            margin-right: 10px; /* Add this line */
+            margin-right: 10px;
         }
 
         .register a:last-child {
-            margin-right: 0; /* Remove margin from the last element */
+            margin-right: 0;
         }
-            .register a:hover {
-                background: transparent;
-                border: 1px solid indianred;
+
+        .register a:hover {
+            background: transparent;
+            border: 1px solid indianred;
+        }
+
+        .h-txt {
+            max-width: 650px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .h-txt span {
+            letter-spacing: 5px;
+        }
+
+        .h-txt h1 {
+            font-size: 3.5em;
+        }
+
+        .h-txt a {
+            text-decoration: none;
+            background: indianred;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.4s;
+        }
+
+        .h-txt a:hover {
+            background: transparent;
+            border: 1px solid transparent;
+        }
+
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                height: auto;
             }
 
-            .h-txt {
-                max-width: 650px;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                text-align: center;
-                color: white;
+            .menu a,
+            .register a {
+                padding: 5px 10px;
+                font-size: 18px;
             }
 
-            .h-txt span {
-                letter-spacing: 5px;
+            .logo {
+                font-size: 1.5em;
             }
 
             .h-txt h1 {
-                font-size: 3.5em;
+                font-size: 2.5em;
             }
 
             .h-txt a {
-                text-decoration: none;
-                background: indianred;
-                color: white;
-                padding: 10px 20px;
-                border-radius: 8px;
-                transition: 0.4s;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                flex-direction: column;
+                height: auto;
             }
 
-            .h-txt a:hover {
-                background: transparent;
-                border: 1px solid transparent;
+            .menu a,
+            .register a {
+                padding: 5px 10px;
+                font-size: 16px;
             }
-        </style>
-    </head>
 
-    <body>
-        <header>
-            <nav class="">
-                <div class="logo">
-                    <a href="home.html">Duteko</a>
-                </div>
-                <div class="menu">
-                    <!-- <a href="#">Home</a> -->
-                    <!-- <a href="#">About</a> -->
-                    <!-- <a href="#">Our Sites</a> -->
-                    <!-- <a href="#">Contact</a> -->
-                </div>
-                <div class="register">
-                    <!-- <a href="#">Register</a> -->
-                    <a href="contact.html">Contact</a>
-                    <a href="terms_conditions.html">Terms and Conditions</a>
-                </div>
-            </nav>
-            <section class="h-txt">
-                <!-- <span>Enjoy</span> -->
-                <h1>Get paid seeing the World!</h1>
+            .logo {
+                font-size: 1.2em;
+            }
 
-                <br>
-                <a href="#">Coming Soon</a>
-            </section>
-        </header>
-    </body>
+            .h-txt h1 {
+                font-size: 2em;
+            }
+
+            .h-txt a {
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="">
+            <div class="logo">
+                <a href="home.html">Duteko</a>
+            </div>
+            <div class="menu">
+                <!-- <a href="#">Home</a> -->
+                <!-- <a href="#">About</a> -->
+                <!-- <a href="#">Our Sites</a> -->
+                <!-- <a href="#">Contact</a> -->
+            </div>
+            <br>
+            <div class="register">
+                <!-- <a href="#">Register</a> -->
+                <a href="contact.html">Contact</a>
+                <a href="terms_conditions.html">Terms and Conditions</a>
+            </div>
+        </nav>
+        <section class="h-txt">
+            <!-- <span>Enjoy</span> -->
+            <h1>Get paid seeing the World!</h1>
+            <br>
+            <a href="#">Coming Soon</a>
+        </section>
+    </header>
+</body>
 
 </html>
