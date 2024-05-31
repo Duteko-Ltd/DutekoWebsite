@@ -1,0 +1,3 @@
+[submodule "DutekoWebsite"]
+	path = DutekoWebsite
+	url = https://github.com/Duteko-Ltd/DutekoWebsite.git
