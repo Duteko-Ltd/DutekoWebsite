@@ -110,7 +110,7 @@ export function Hero() {
             Peer-to-Peer delivery platform
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-            At Duteko, we're revolutionizing the way things move across Europe. We're a peer-to-peer delivery platform that connects everyday people with the need to send something to reliable individuals already making similar journeys.
+            At Duteko, we&apos;re revolutionizing the way things move across Europe. We&apos;re a peer-to-peer delivery platform that connects everyday people with the need to send something to reliable individuals already making similar journeys.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />

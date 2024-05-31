@@ -65,7 +65,7 @@ export default function Home() {
 
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How We Work</h2>
               <p className="mt-6">
-                Duteko is easy to use. Simply enter your pick-up and delivery locations, and let us know what you need to send. We'll connect you with a network of independent delivery providers who will compete for your business. You can choose the provider that offers the best price and service for your needs.
+                Duteko is easy to use. Simply enter your pick-up and delivery locations, and let us know what you need to send. We&apos;ll connect you with a network of independent delivery providers who will compete for your business. You can choose the provider that offers the best price and service for your needs.
 
               </p>
 

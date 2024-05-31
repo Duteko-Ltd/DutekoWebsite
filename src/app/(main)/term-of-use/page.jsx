@@ -10,17 +10,17 @@ export default function TermOfUse() {
             <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-1">
               <div>
                 <p>
-                  By using Duteko, you agree to these Terms of Use ("Terms").
+                  By using Duteko, you agree to these Terms of Use (&quot;Terms&quot;).
                 </p>
                 <p className="mt-8 font-bold">
                   1. Our Agreement
                 </p>
                 <p className="mt-8">
-                  1.1. These Terms govern your use of the Duteko app and website (the "Duteko Services") to arrange deliveries ("Packages") within Europe. Duteko is a private limited liability company located in Bedford, UK.
+                  1.1. These Terms govern your use of the Duteko app and website (the &quot;Duteko Services&quot;) to arrange deliveries (&quot;Packages&quot;) within Europe. Duteko is a private limited liability company located in Bedford, UK.
                   <br />
-                  1.2. By using Duteko, you agree to these Terms and the separate Terms of Use (collectively, the "Duteko Terms of Use").
+                  1.2. By using Duteko, you agree to these Terms and the separate Terms of Use (collectively, the &quot;Duteko Terms of Use&quot;).
                   <br />
-                  1.3. We may update these Terms from time to time for legal or business reasons. We will give you reasonable notice of any changes. If you don't agree to the changes, you can stop using Duteko.
+                  1.3. We may update these Terms from time to time for legal or business reasons. We will give you reasonable notice of any changes. If you don&apos;t agree to the changes, you can stop using Duteko.
                   <br />
                   1.4. By continuing to use Duteko, you agree to any changes.
                 </p>
@@ -38,7 +38,7 @@ export default function TermOfUse() {
   <li>- Following our rules about prohibited items, package restrictions, and community guidelines (see below).</li>
   <li>- Insuring your Packages if you want coverage.</li>
   <li>- Taking full responsibility for your Packages during and after delivery, including damage due to temperature or tampering.</li>
-  <li>- Any loss, liability, or expense we incur due to your misuse of Duteko or a delivery provider's services.</li>
+  <li>- Any loss, liability, or expense we incur due to your misuse of Duteko or a delivery provider&apos;s services.</li>
 </ul>
 
 <br/>
@@ -58,7 +58,7 @@ export default function TermOfUse() {
 If a delivery cannot be completed (e.g., the recipient cannot be found), the provider may try to return the Package to you.
 If the Package cannot be returned, it may be left at the original pickup location, another location you choose, or the delivery location (or somewhere safe nearby), as agreed with the provider.
 We will try to help you rearrange delivery or return undelivered Packages.
-You are responsible for any reasonable costs associated with returning, redelivering, or disposing of your Package, unless it's due to the provider's fault. We may pay these costs on the provider's behalf and recover the money from you using your payment method on file.
+You are responsible for any reasonable costs associated with returning, redelivering, or disposing of your Package, unless it&apos;s due to the provider&apos;s fault. We may pay these costs on the provider&apos;s behalf and recover the money from you using your payment method on file.
 2.8. Payment: You can only pay for deliveries using a digital payment method on file. We do not accept cash.
 
                 </p>
@@ -68,9 +68,9 @@ You are responsible for any reasonable costs associated with returning, redelive
                 3. Liability
                 </p>
                 <p className="mt-8">
-                3.1. Nothing in these Terms limits our liability for death or personal injury caused by negligence, fraud, or fraudulent misrepresentation. These Terms also don't affect your consumer rights under applicable law.
+                3.1. Nothing in these Terms limits our liability for death or personal injury caused by negligence, fraud, or fraudulent misrepresentation. These Terms also don&apos;t affect your consumer rights under applicable law.
                 <br/>
-3.2. We don't insure Packages or deliveries. You are responsible for insuring your Packages if you want coverage.
+3.2. We don&apos;t insure Packages or deliveries. You are responsible for insuring your Packages if you want coverage.
 <br/>
 3.3. We are not liable for:
 

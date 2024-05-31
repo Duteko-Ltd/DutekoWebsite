@@ -576,7 +576,7 @@ export function PrimaryFeatures() {
           How We Work: Deliveries Made Simple Across Europe
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-          It's a win-win for everyone involved:
+          It&apos;s a win-win for everyone involved:
           </p>
         </div>
       </Container>
