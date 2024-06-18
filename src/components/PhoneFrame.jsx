@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import clsx from 'clsx'
 
-import frame from '@/images/WalletScreen1.png'
+import frame from '@/images/Dashboard.png'
 
 function PlaceholderFrame(props) {
   return (
