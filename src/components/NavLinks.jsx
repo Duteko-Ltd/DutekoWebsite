@@ -9,15 +9,13 @@ export function NavLinks() {
   let timeoutRef = useRef(null)
 
   return [
-    ['X', 'https://x.com/duteko_support?s=11&t=zdJjsLwt-KFs9DKIDy3ePw'],
-    ['Instagram', 'https://www.instagram.com/duteko_support?igsh=MTVnM2Vrenlnbnp2ag=='],
-    // ['Term of Use', '/term-of-use'],
+    ['About Us', '/about-us'],    
+    ['Term of Use', '/term-of-use'],
     // ['FAQs', '/#faqs'],
   ].map(([label, href], index) => (
     <Link
       key={label}
-      href={href}
-      target='_blank'
+      href={href}      
       className="relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
       onMouseEnter={() => {
         if (timeoutRef.current) {
