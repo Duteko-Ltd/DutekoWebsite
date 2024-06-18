@@ -1,4 +1,7 @@
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faXTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 export default function ContactUs() {
   return (
     <>
@@ -68,6 +71,29 @@ export default function ContactUs() {
                     </a>
                   </dd>
                 </div>
+                <div className="flex gap-x-4">
+        <dt className="flex-none">
+          <span className="sr-only">X</span>
+          <FontAwesomeIcon icon={faXTwitter} className="h-7 w-6 text-gray-400" aria-hidden="true" />
+        </dt>
+        <dd>
+          <a className="hover:text-gray-900" href="https://x.com/duteko_support?s=11&t=zdJjsLwt-KFs9DKIDy3ePw" target="_blank" rel="noopener noreferrer">
+            @duteko_support
+          </a>
+        </dd>
+      </div>
+      
+      <div className="flex gap-x-4">
+        <dt className="flex-none">
+          <span className="sr-only">Instagram</span>
+          <FontAwesomeIcon icon={faInstagram} className="h-7 w-6 text-gray-400" aria-hidden="true" />
+        </dt>
+        <dd>
+          <a className="hover:text-gray-900" href="https://www.instagram.com/duteko_support?igsh=MTVnM2Vrenlnbnp2ag==" target="_blank" rel="noopener noreferrer">
+            @duteko_support
+          </a>
+        </dd>
+      </div>
               </dl>
             </div>
           </div>
