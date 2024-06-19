@@ -67,7 +67,6 @@ export function Header() {
                 className="h-12 w-auto rounded-full"
               // sizes="52.75rem"
               />
-              Duteko
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
