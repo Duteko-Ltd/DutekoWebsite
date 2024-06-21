@@ -9,9 +9,9 @@ export function NavLinks() {
   let timeoutRef = useRef(null)
 
   return [
+    ['Duteko', '/'],
     ['About Us', '/about-us'],    
-    ['Term of Use', '/term-of-use'],
-    // ['FAQs', '/#faqs'],
+    ['Term of Use', '/term-of-use']
   ].map(([label, href], index) => (
     <Link
       key={label}
