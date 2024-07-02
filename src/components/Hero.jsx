@@ -107,22 +107,29 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-            Peer-to-Peer delivery platform
+              Peer-to-Peer delivery platform
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-            At Duteko, we&apos;re revolutionizing the way things move across Europe. We&apos;re a peer-to-peer delivery platform that connects everyday people with the need to send something to reliable individuals already making similar journeys.
+              At Duteko, we&apos;re revolutionizing the way things move across Europe. We&apos;re a peer-to-peer delivery platform that connects everyday people with the need to send something to reliable individuals already making similar journeys.
             </p>
-            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <AppStoreLink />
-              {/* <Button
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                variant="outline"
-              >
-                <PlayIcon className="h-6 w-6 flex-none" />
-                <span className="ml-2.5">Watch the video</span>
-              </Button> */}
-               {/* <PlayStoreLink /> */}
-              
+            <div className="mt-8 flex flex-wrap gap-x-2 gap-y-4">
+             
+              <a href="https://apps.apple.com/ng/app/duteko/id6503954529">
+                <img
+                  className='w-30 h-15 apple'
+                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
+                  alt="Download on the App Store" />
+              </a>
+             <div className='-mt-3'>
+             <a href='https://play.google.com/store/apps/details?id=com.duteko.Duteko&hl=en_US'>
+                <img
+                  className='w-30 h-16  android'
+                  alt='Get it on Google Play'
+                  src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' />
+              </a>
+             </div>
+            
+
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">

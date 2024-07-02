@@ -20,8 +20,21 @@ export function CallToAction() {
           Ready to experience a smarter way to deliver? Sign up as a sender or courier today and join the Duteko community!
           </p>
           <div className="mt-8 flex gap-5 justify-center">
-            <AppStoreLink color="white" />
-            {/* <AppStoreLink color="white" /> */}
+           
+             <a href="https://apps.apple.com/ng/app/duteko/id6503954529">
+               <img
+                 className='w-30 h-15 apple'
+                 src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
+                 alt="Download on the App Store" />
+             </a>
+            <div className='-mt-3'>
+            <a href='https://play.google.com/store/apps/details?id=com.duteko.Duteko&hl=en_US'>
+               <img
+                 className='w-30 h-16  android'
+                 alt='Get it on Google Play'
+                 src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' />
+             </a>
+            </div>
           </div>
           
         </div>
