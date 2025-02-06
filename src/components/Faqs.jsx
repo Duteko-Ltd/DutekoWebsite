@@ -87,7 +87,7 @@ export function Faqs() {
             Frequently asked questions
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-          Find commonly asked questions and their answers below. {' '}
+          Find commonly asked questions and their answers below.
           </p>
         </div>
         <ul
