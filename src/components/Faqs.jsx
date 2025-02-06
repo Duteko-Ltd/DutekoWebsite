@@ -3,9 +3,9 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How many countries do you operate in?',
+      question: 'How do I know the tips are good?',
       answer:
-        'We only support uni-directional delivery i.e. diaspora to home country. We currently support deliveries from United Kingdom to Nigeria.',
+        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
     },
     {
       question: 'Isn’t this insider trading?',
