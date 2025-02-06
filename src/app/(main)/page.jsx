@@ -15,8 +15,7 @@ export default function Home() {
       <CallToAction />
       {/* <Reviews /> */}
       {/* <Pricing /> */}
-      <Faqs />
-     
+      <Faqs />     
     </>
   )
 }
