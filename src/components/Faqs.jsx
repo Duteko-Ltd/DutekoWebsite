@@ -63,12 +63,12 @@ export function Faqs() {
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0">
-          {/* <h2
+          <h2
             id="faqs-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
             Frequently asked questions
-          </h2> */}
+          </h2>
           <p className="mt-2 text-lg text-gray-600">
           Ready to experience a smarter way to deliver? {' '}
             <a
@@ -80,7 +80,7 @@ export function Faqs() {
             {' '} as a sender or courier today and join the Duteko community!.
           </p>
         </div>
-        {/* <ul
+        <ul
           role="list"
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:max-w-none lg:grid-cols-3"
         >
@@ -98,7 +98,7 @@ export function Faqs() {
               </ul>
             </li>
           ))}
-        </ul> */}
+        </ul>
       </Container>
     </section>
   )

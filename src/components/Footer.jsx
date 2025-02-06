@@ -22,7 +22,8 @@ function QrCodeBorder(props) {
 
 export function Footer() {
   return (
-    <footer className="border-t border-gray-200">
+    // border-t border-gray-200
+    <footer className="">
       <Container>
          <div className="flex flex-col items-start justify-between gap-y-12 pb-6 pt-16 lg:flex-row lg:items-center lg:py-16">
           <div>
