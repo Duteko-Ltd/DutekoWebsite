@@ -3,53 +3,70 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'How can I be a sender or courier on your platform?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        'You have to sign-up and pass our know your customer (KYC) verification.',
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'How many countries do you operate in?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        'We only support uni-directional delivery i.e. diaspora to home country. We currently support delivery from United Kingdom to Nigeria.',
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: 'How do I drop my item(s) with the traveller/courier?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
+        'You can drop it in person at your designated location or our designated locations.',
     },
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
+      question: 'Do you have designated delivery locations?',
       answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
+        'Yes, we do. We have a growing list of shops in the UK. If there are no shops around you, you will have to hand over the item to the traveller/courier in person.',
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
+      question: 'How do I package it?',
       answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
+        'The package must be properly labelled with receiver’s details. Try as much as possible to avoid items that get damaged upon impact.',
     },
     {
-      question: 'How do I become an insider?',
+      question: 'Can the traveller/courier check my items?',
       answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'Yes, the traveller/courier is obligated to physically access the items to confirm its content.',
+    },
+  ],
+  [
+    {
+      question: 'What items do you support?',
+      answer:
+        'Cloths, foot wears, books, and small gadgets like phones, tabs, PC etc. We do not support biodegradable items, foods, liquids, drugs and medications, weapons etc. See our terms and conditions for a full list of prohibited items.',
+    },
+    {
+      question: 'How expensive are you?',
+      answer:
+        'Comparatively, we are the cheapest on the block. You won’t find any cheaper delivery services than us.',
+    },
+    {
+      question: 'What if something happens to my item(s)?',
+      answer:
+        'We will be responsible for it. We cap the amount we can pay in damages to a maximum of $250. Please see our terms and conditions for more information.',
+    },
+  ],
+  [
+    {
+      question: 'Can I be a sender and courier at the same time?',
+      answer:
+      'Absolute yes. You can be either or both at the same time.',
+    },
+    {
+      question: 'As a sender, how will I deliver the item(s) to the recipient?',
+      answer:
+      'We will collect the item(s) from you at the Muritala Mohammed International airport and deliver to the doorstep of the receiver.',
+    },
+    {
+      question: 'What incentive do I get as a courier for you?',
+      answer: 
+      'You will be paid 60% of the delivery fee.',
     },
   ],
 ]
@@ -70,14 +87,7 @@ export function Faqs() {
             Frequently asked questions
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-          Ready to experience a smarter way to deliver? {' '}
-            <a
-              href="mailto:info@example.com"
-              className="text-gray-900 underline"
-            >
-             Sign up
-            </a>
-            {' '} as a sender or courier today and join the Duteko community!.
+          Find commonly asked questions and their answers below.
           </p>
         </div>
         <ul
