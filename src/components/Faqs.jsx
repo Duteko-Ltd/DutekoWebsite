@@ -17,6 +17,11 @@ const faqs = [
       answer:
         'You can drop it in person at your designated location or our designated locations.',
     },
+    {
+      question: 'Can I be a sender and courier at the same time?',
+      answer:
+      'Absolute yes. You can be either or both at the same time.',
+    },
   ],
   [
     {
@@ -33,6 +38,11 @@ const faqs = [
       question: 'Can the traveller/courier check my items?',
       answer:
         'Yes, the traveller/courier is obligated to physically access the items to confirm its content.',
+    },
+    {
+      question: 'As a sender, how will I deliver the item(s) to the recipient?',
+      answer:
+      'We will collect the item(s) from you at the Muritala Mohammed International airport and deliver to the doorstep of the receiver.',
     },
   ],
   [
@@ -51,24 +61,13 @@ const faqs = [
       answer:
         'We will be responsible for it. We cap the amount we can pay in damages to a maximum of $250. Please see our terms and conditions for more information.',
     },
-  ],
-  [
-    {
-      question: 'Can I be a sender and courier at the same time?',
-      answer:
-      'Absolute yes. You can be either or both at the same time.',
-    },
-    {
-      question: 'As a sender, how will I deliver the item(s) to the recipient?',
-      answer:
-      'We will collect the item(s) from you at the Muritala Mohammed International airport and deliver to the doorstep of the receiver.',
-    },
     {
       question: 'What incentive do I get as a courier for you?',
       answer: 
       'You will be paid 60% of the delivery fee.',
     },
   ],
+
 ]
 
 export function Faqs() {
@@ -76,7 +75,7 @@ export function Faqs() {
     <section
       id="faqs"
       aria-labelledby="faqs-title"
-      className="border-t border-gray-200 py-20 sm:py-32"
+      className="border-t lg:-mb-24 border-gray-200 py-20 sm:py-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0">
