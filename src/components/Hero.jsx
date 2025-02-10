@@ -107,7 +107,7 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Welcome to Duteko - The Global Immigrant Marketplace Connecting Hearts Across Borders
+              The Immigrant Marketplace: Bridging Hearts Across Borders
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               At Duteko, we understand that distance can make it challenging for immigrants to stay connected with their loved ones back home. Sending parcels filled with care, love, and essentials shouldn&apos;t be a hassle-it should be affordable, reliable, and community-driven. That&apos;s why we&apos;ve created a unique platform to make cross-border parcel delivery faster, cheaper, and more meaningful.
