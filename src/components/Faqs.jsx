@@ -49,7 +49,7 @@ const faqs = [
     {
       question: 'What items do you support?',
       answer:
-        'Cloths, foot wears, books, and small gadgets like phones, tabs, PC etc. We do not support biodegradable items, foods, liquids, drugs and medications, weapons etc. See our terms and conditions for a full list of prohibited items.',
+        'Clothes, foot wears, books, and small gadgets like phones, tabs, PC etc. We do not support biodegradable items, foods, liquids, drugs and medications, weapons etc. See our terms and conditions for a full list of prohibited items.',
     },
     {
       question: 'How expensive are you?',

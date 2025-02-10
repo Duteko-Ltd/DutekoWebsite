@@ -107,11 +107,21 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Peer-to-Peer delivery platform
+              Welcome to Duteko - The Global Immigrant Marketplace Connecting Hearts Across Borders
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              At Duteko, we&apos;re revolutionizing the way things move across Europe. We&apos;re a peer-to-peer delivery platform that connects everyday people with the need to send something to reliable individuals already making similar journeys.
+              At Duteko, we understand that distance can make it challenging for immigrants to stay connected with their loved ones back home. Sending parcels filled with care, love, and essentials shouldn&apos;t be a hassle-it should be affordable, reliable, and community-driven. That&apos;s why we&apos;ve created a unique platform to make cross-border parcel delivery faster, cheaper, and more meaningful.
             </p>
+    <h2 className="text-3xl mt-8 font-medium tracking-tight text-gray-900">
+    What we do
+    </h2>
+    <p className="mt-6 text-lg text-gray-600">
+    Duteko is a digital marketplace that connects immigrants with trusted travellers heading back to their home countries. By leveraging our platform, immigrants can send parcels through these verified travellers, reducing shipping costs while fostering trust within their community. Upon arrival, our partnered local couriers handle the last-mile delivery, ensuring that parcel reaches the recipient&apos;s doorstep quickly and securely.
+    </p>
+
+    <p className="mt-3 text-lg text-gray-600">
+    Whether you&apos;re sending gifts, essentials, or documents, Duteko ensures your items arrive safely, affordably, and with a personal touch.
+    </p>
             <div className="mt-8 flex flex-wrap gap-x-2 gap-y-4">
              
               <a href="https://apps.apple.com/ng/app/duteko/id6503954529">
