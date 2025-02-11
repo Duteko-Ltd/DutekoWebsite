@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata = {
   title: {
     template: '%s - Pocket',
-    default: 'Duteko - Peer-to-Peer delivery platform',
+    default: 'Duteko: Marketplace delivery platform',
   },
   description:
     'we\'re revolutionizing the way things move across Europe. We\'re a peer-to-peer delivery platform that connects everyday people with the need to send something to reliable individuals already making similar journeys.',
