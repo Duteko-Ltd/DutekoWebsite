@@ -10,7 +10,7 @@ const faqs = [
     {
       question: 'How many countries do you operate in?',
       answer:
-        'We only support uni-directional delivery i.e. diaspora to home country. We currently support delivery from United Kingdom to Nigeria.',
+        'We only support uni-directional delivery i.e. diaspora to home country. We currently support delivery from United Kingdom, Europe, USA and Canada to Nigeria.',
     },
     {
       question: 'How do I drop my item(s) with the traveller/courier?',
