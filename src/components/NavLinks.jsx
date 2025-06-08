@@ -11,7 +11,8 @@ export function NavLinks() {
   return [
     ['Duteko', '/'],
     ['About Us', '/about-us'],    
-    ['Term of Use', '/term-of-use']
+    ['Term of Use', '/term-of-use'],
+    ['Privacy Policy', '/privacy-policy']
   ].map(([label, href], index) => (
     <Link
       key={label}
