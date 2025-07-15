@@ -573,7 +573,7 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
-          How We Work: Deliveries Made Simple Across Europe
+          How We Work: Deliveries Made Simple From Diaspora (UK/Europe/USA/Canada) To Nigeria
           </h2>
           <p className="mt-2 text-lg text-gray-400">
           It&apos;s a win-win for everyone involved:
