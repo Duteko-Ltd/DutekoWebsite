@@ -25,6 +25,7 @@ export function Footer() {
     // border-t border-gray-200
     <footer className="">
       <Container>
+         {/* <div className="flex flex-col items-start justify-between gap-y-12 pb-6 pt-16 lg:flex-row lg:items-center lg:py-16"> */}
          <div className="flex flex-col items-start justify-between gap-y-12 pb-6 pt-16 lg:flex-row lg:items-center lg:py-16">
           <div>
             {/* <div className="flex items-center text-gray-900">
@@ -70,10 +71,18 @@ export function Footer() {
             </Button>
           </form> */}
             <nav className="mt-11 flex gap-8">
-               <NavLinks /> 
+            <NavLinks />
+            <div>
+              <Link
+                href="/refund-policy"
+                className="text-sm text-gray-700 hover:text-gray-700 transition"
+              >
+                Refund Policy
+              </Link>
+            </div>
             </nav>
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
-            &copy; Copyright {new Date().getFullYear()}. All rights reserved.
+            &copy; Copyright {new Date().getFullYear()}. All rights reserved. MBAFadeyi Limited
           </p>
         </div>
       </Container>
