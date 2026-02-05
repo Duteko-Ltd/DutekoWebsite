@@ -121,6 +121,9 @@ export function Header() {
                             <MobileNavLink href="/term-of-use">
                               Term of Use
                             </MobileNavLink>
+                            <MobileNavLink href="/refund-policy">
+                              Refund Policy
+                            </MobileNavLink>
                             {/* <MobileNavLink href="/#faqs">FAQs</MobileNavLink> */}
                           </div>
                           <div className="mt-8 flex flex-col gap-4">

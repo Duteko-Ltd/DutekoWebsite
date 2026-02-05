@@ -48,6 +48,11 @@ export default function ContactUs() {
                     <br />
                     MK40 1DX, England.
                   </dd>
+                  <dd>
+                  28, Reverend Ransome Kuti Road, Ibara Housing Estate, 
+                    <br />
+                    Abeokuta, Nigeria.
+                  </dd>
                 </div>
                 {/* <div className="flex gap-x-4">
                   <dt className="flex-none">
@@ -68,6 +73,17 @@ export default function ContactUs() {
                   <dd>
                     <a className="hover:text-gray-900" href="mailto:support@duteko.com">
                     support@duteko.com
+                    </a>
+                  </dd>
+                </div>
+                <div className="flex gap-x-4">
+                  <dt className="flex-none">
+                    <span className="sr-only">Phone number</span>
+                    <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                  </dt>
+                  <dd>
+                    <a className="hover:text-gray-900" href="tel:+234 808 444 9087">
+                    +234 808 444 9087
                     </a>
                   </dd>
                 </div>
